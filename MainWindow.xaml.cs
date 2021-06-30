@@ -23,6 +23,7 @@ namespace GestaoPanosDePratoETapetes
         public MainWindow()
         {
             InitializeComponent();
+
         }
     }
 }

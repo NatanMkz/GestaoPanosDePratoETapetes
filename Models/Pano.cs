@@ -38,9 +38,29 @@ namespace GestaoPanosDePratoETapetes.Models
         public DateTime DataColeta { get => _dataColeta; set => _dataColeta = value; }
 
 
-        private void PanoColeta()
+        public string GetNome()
         {
-            
+            return "";
+        }
+
+        public int GetID()
+        {
+            return 0;
+        }
+
+        public void GetTipo()
+        {
+            //return TipoPano;
+        }
+
+        public int GetRemessa()
+        {
+            return 0;
+        }
+
+        public int GetQuantidade()
+        {
+            return 0;
         }
 
     }
