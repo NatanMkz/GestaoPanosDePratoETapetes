@@ -36,5 +36,12 @@ namespace GestaoPanosDePratoETapetes.Models
         public int Quantidade { get => _quantidade; set => _quantidade = value; }
         public DateTime DataEntrega { get => _dataEntrega; set => _dataEntrega = value; }
         public DateTime DataColeta { get => _dataColeta; set => _dataColeta = value; }
+
+
+        private void PanoColeta()
+        {
+            
+        }
+
     }
 }
