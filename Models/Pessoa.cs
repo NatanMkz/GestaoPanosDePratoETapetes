@@ -38,7 +38,28 @@ namespace GestaoPanosDePratoETapetes.Models
         public TipoPessoa Tipo
         {
             get { return _tipo; }
-        } 
+        }
+
+        public void GetID()
+        {
+
+        }
+
+        public string GetNome()
+        {
+            return "";
+        }
+
+        public string GetTelefone()
+        {
+            return "";
+        }
+
+        public string GetEndereco()
+        {
+            return "";
+        }
+
     }
 
 }
