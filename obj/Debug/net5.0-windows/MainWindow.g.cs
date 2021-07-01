@@ -53,7 +53,7 @@ namespace GestaoPanosDePratoETapetes {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GestaoPanosDePratoETapetes;component/mainwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GestaoPanosDePratoETapetes_f35mfzdj_wpftmp;component/mainwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\MainWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
