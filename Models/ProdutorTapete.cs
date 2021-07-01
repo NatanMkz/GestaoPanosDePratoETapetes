@@ -16,21 +16,5 @@ namespace GestaoPanosDePratoETapetes.Models
         }
 
         public int Credito { get => _credito; set => _credito = value; }
-
-        public double GetCredito()
-        {
-            return 0;
-        }
-
-        public double AdicionarCredito(double numero)
-        {
-            return 0;
-        }
-
-        public double RemoverCredito(double numero)
-        {
-            return 0;
-        }
-
     }
 }
