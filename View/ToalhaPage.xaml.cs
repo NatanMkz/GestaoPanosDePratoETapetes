@@ -1,5 +1,4 @@
-﻿using GestaoPanosDePratoETapetes.View;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,23 +12,21 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using GestaoPanosDePratoETapetes.Models;
 
-namespace GestaoPanosDePratoETapetes
+namespace GestaoPanosDePratoETapetes.View
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for ToalhaPage.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class ToalhaPage : Page
     {
-        public MainWindow()
+        public ToalhaPage()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            ToalhaPage toalha =new ToalhaPage();
-            this.Content = toalha;
+            var a = new List<PanoPrato>();
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(200)));
+            dtgToalhas.ItemsSource = a;
         }
     }
 }
