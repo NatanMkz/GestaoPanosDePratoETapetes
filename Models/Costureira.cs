@@ -17,19 +17,21 @@ namespace GestaoPanosDePratoETapetes.Models
 
         public int TotalToalhas { get => _totalToalhas; set => _totalToalhas = value; }
 
-        public int GetTotalToalhas()
-        {
-            return 0;
-        }
-
         public int RemoverToalhas(int numero)
         {
-            return 0;
+            if(TotalToalhas < numero)
+            {
+                TotalToalhas = 0;
+                return TotalToalhas;
+            }
+            TotalToalhas -= numero;
+            return TotalToalhas;
         }
 
         public int AdicionarToalhas(int numero)
         {
-            return 0;
+            TotalToalhas += numero;
+            return TotalToalhas;
         }
 
     }

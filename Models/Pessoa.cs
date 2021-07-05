@@ -40,26 +40,6 @@ namespace GestaoPanosDePratoETapetes.Models
             get { return _tipo; }
         }
 
-        public void GetID()
-        {
-
-        }
-
-        public string GetNome()
-        {
-            return "";
-        }
-
-        public string GetTelefone()
-        {
-            return "";
-        }
-
-        public string GetEndereco()
-        {
-            return "";
-        }
-
     }
 
 }

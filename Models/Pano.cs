@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GestaoPanosDePratoETapetes.Models
 {
-    public class Pano
+    public abstract class Pano
     {
         int _id;
         string _nome;
@@ -36,32 +36,6 @@ namespace GestaoPanosDePratoETapetes.Models
         public int Quantidade { get => _quantidade; set => _quantidade = value; }
         public DateTime DataEntrega { get => _dataEntrega; set => _dataEntrega = value; }
         public DateTime DataColeta { get => _dataColeta; set => _dataColeta = value; }
-
-
-        public string GetNome()
-        {
-            return "";
-        }
-
-        public int GetID()
-        {
-            return 0;
-        }
-
-        public void GetTipo()
-        {
-            //return TipoPano;
-        }
-
-        public int GetRemessa()
-        {
-            return 0;
-        }
-
-        public int GetQuantidade()
-        {
-            return 0;
-        }
 
     }
 }
