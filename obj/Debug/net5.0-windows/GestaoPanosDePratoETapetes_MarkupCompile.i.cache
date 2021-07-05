@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\vlnote35\Source\Repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\
+C:\Users\vlnote35\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\
 GestaoPanosDePratoETapetes
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\vlnote35\Source\Repos\GestaoPanosDePratoETapetes\App.xaml
-2834027282
+C:\Users\vlnote35\source\repos\GestaoPanosDePratoETapetes\App.xaml
+3-593932991
 
-15-1336098604
+16-1881847621
 193-1891726104
-MainWindow.xaml;View\Toalha.xaml;
+MainWindow.xaml;View\Toalha.xaml;View\ToalhaPage.xaml;
 
-True
+False
 

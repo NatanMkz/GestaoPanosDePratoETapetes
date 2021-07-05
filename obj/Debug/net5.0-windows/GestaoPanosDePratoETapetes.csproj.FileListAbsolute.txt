@@ -66,3 +66,5 @@ C:\Users\vlnote35\Source\Repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windo
 C:\Users\vlnote35\Source\Repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\ref\GestaoPanosDePratoETapetes.dll
 C:\Users\vlnote35\Source\Repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\GestaoPanosDePratoETapetes.pdb
 C:\Users\vlnote35\Source\Repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\GestaoPanosDePratoETapetes.genruntimeconfig.cache
+C:\Users\vlnote35\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\ToalhaPage.g.cs
+C:\Users\vlnote35\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\ToalhaPage.baml

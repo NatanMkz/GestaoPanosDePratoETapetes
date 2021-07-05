@@ -4,25 +4,19 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using GestaoPanosDePratoETapetes.Models;
 
 namespace GestaoPanosDePratoETapetes.View
 {
     /// <summary>
     /// Interaction logic for Toalha.xaml
     /// </summary>
-    public partial class Toalha : Page
+    public partial class Toalha : Window
     {
         public Toalha()
         {
             InitializeComponent();
+            dtgToalhas.DataContext = new List<PanoPrato>();
         }
     }
 }

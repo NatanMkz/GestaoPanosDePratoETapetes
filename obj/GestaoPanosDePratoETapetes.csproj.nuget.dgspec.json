@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj": {}
+    "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj": {
+    "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
+        "projectUniqueName": "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
         "projectName": "GestaoPanosDePratoETapetes",
-        "projectPath": "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
+        "projectPath": "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
         "packagesPath": "C:\\Users\\vlnote35\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosDePratoETapetes\\obj\\",
+        "outputPath": "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
