@@ -7,7 +7,39 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
+    <Compile Update="View\CadCostureira.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Principal.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\TapetePage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\Toalha.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\ToalhaPage.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CadCostureira.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Principal.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\TapetePage.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\Toalha.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\ToalhaPage.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

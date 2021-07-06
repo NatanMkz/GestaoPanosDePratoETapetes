@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestaoPanosDePratoETapetes.View;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,7 +24,24 @@ namespace GestaoPanosDePratoETapetes
         public MainWindow()
         {
             InitializeComponent();
+        }
 
+        //private void principal(object sender, RoutedEventArgs e)
+        //{
+        //    this.DataContext = new Principal();
+        //    ///this
+        //}
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Principal inciar = new Principal();
+            pgPrincipal.Navigate(inciar);
+            // NavigationWindow.ContentProperty.;
+
+           
+
+
+            // this.Content = new Principal();
         }
     }
 }

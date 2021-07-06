@@ -23,22 +23,5 @@ namespace GestaoPanosDePratoETapetes.Models
         public string Nome { get => _nome; set => _nome = value; }
         public double PrecoUnidadeFabricacao { get => _precoUnidadeFabricacao; set => _precoUnidadeFabricacao = value; }
 
-        public int GetID()
-        {
-            return 0;
-        }
-
-        public string GetNome()
-        {
-            return "";
-        }
-
-        public double GetPrecoUnidadeFabricacao()
-        {
-            return 0;
-        }
-
-
-
     }
 }

@@ -6,25 +6,20 @@ using System.Threading.Tasks;
 
 namespace GestaoPanosDePratoETapetes.Models
 {
-    public class Tapete
+    public class Tapete : Pano
     {
         private double _precoVenda;
 
-        public Tapete()
+        public Tapete(int id, string nome, int remessa, int quantidade, DateTime dataEntrega, DateTime dataColeta, double precoVenda) : base(id, nome, remessa, quantidade, dataEntrega, dataColeta)
         {
-
-        }
-
-        public Tapete(double precoVenda)
-        {
-            PrecoVenda = precoVenda;
+            _precoVenda = precoVenda;
         }
 
         public double PrecoVenda { get => _precoVenda; set => _precoVenda = value; }
 
         public double TotalEmReais()
         {
-            return 0;
+            return this.Quantidade * _precoVenda;
         }
 
 

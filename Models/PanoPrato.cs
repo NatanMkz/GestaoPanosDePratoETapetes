@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace GestaoPanosDePratoETapetes.Models
 {
-    public class PanoPrato
+    public class PanoPrato : Pano
     {
         private int _deficeToalhas;
         private Costureira _costureira;
 
-        public PanoPrato(int deficeToalhas, Costureira costureira)
+        public PanoPrato(int id, string nome, int remessa, int quantidade, DateTime dataEntrega, DateTime dataColeta, int deficeToalhas, Costureira costureira) : base(id, nome, remessa, quantidade, dataEntrega, dataColeta)
         {
             _deficeToalhas = deficeToalhas;
             _costureira = costureira;
@@ -20,24 +20,21 @@ namespace GestaoPanosDePratoETapetes.Models
         public int DeficeToalhas { get => _deficeToalhas; set => _deficeToalhas = value; }
         public Costureira Costureira { get => _costureira; set => _costureira = value; }
 
-        public Costureira GetCostureira()
+        public int AdicionarDeficeToalhas(int numero)
         {
-            return Costureira;
+            DeficeToalhas += numero;
+            return DeficeToalhas;
         }
 
-        public int GetDeficeToalhas()
+        public int RemoverDeficeToalhas(int numero)
         {
-            return 0;
-        }
-
-        public int AdicionarDeficeToalhas()
-        {
-            return 0;
-        }
-           
-        public int RemoverDeficeToalhas()
-        {
-            return 0;
+            if(DeficeToalhas < numero)
+            {
+                DeficeToalhas = 0;
+                return DeficeToalhas;
+            }
+            DeficeToalhas += numero;
+            return DeficeToalhas;
         }
 
     }
