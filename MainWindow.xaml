@@ -5,8 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:GestaoPanosDePratoETapetes"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="dtgPrincipal" Height="450" Width="800" Name="dtgPrincipal">
     <Grid>
-        <Button Content="Button" Click="Button_Click" HorizontalAlignment="Center" Margin="0,189,0,0" VerticalAlignment="Top"/>
+    <Frame Name="pgPrincipal">
+            <Frame.Content>
+                 <Button Content="Iniciar" Click="Button_Click" HorizontalAlignment="Center" Margin="0,164,0,0" VerticalAlignment="Top" Height="85" Width="246"/>
+                
+            </Frame.Content>
+
+        </Frame>
+
     </Grid>
+
 </Window>

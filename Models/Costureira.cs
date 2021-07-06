@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace GestaoPanosDePratoETapetes.Models
 {
-    public class Costureira
+    public class Costureira : Pessoa
     {
         private int _totalToalhas;
 
-        public Costureira(int totalToalhas)
+        public Costureira(int id, string nome, string telefone, string endereco, TipoPessoa tipo, int totalToalhas) : base(id, nome, telefone, endereco, tipo)
         {
             _totalToalhas = totalToalhas;
         }

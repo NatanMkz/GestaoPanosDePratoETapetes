@@ -1,5 +1,5 @@
 ﻿GestaoPanosDePratoETapetes
-1.0.0.0
+
 
 winexe
 C#
@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\App.xaml
-3-593932991
+5-2047379734
 
-16-1881847621
+17-501834073
 193-1891726104
-MainWindow.xaml;View\Toalha.xaml;View\ToalhaPage.xaml;
+MainWindow.xaml;View\Principal.xaml;View\TapetePage.xaml;View\Toalha.xaml;View\ToalhaPage.xaml;
 
 False
 

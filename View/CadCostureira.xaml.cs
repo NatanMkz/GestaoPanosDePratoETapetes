@@ -10,18 +10,21 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace GestaoPanosDePratoETapetes.View
 {
     /// <summary>
-    /// Lógica interna para Toalha.xaml
+    /// Interação lógica para CadCostureira.xam
     /// </summary>
-    public partial class Toalha : Window
+    public partial class CadCostureira : Page
     {
-        public Toalha()
+        public CadCostureira()
         {
             InitializeComponent();
         }
+
+        
     }
 }

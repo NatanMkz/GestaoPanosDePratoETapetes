@@ -1,0 +1,29 @@
+﻿<Page x:Class="GestaoPanosDePratoETapetes.View.CadCostureira"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:GestaoPanosDePratoETapetes.View"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="CadCostureira">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <TextBlock HorizontalAlignment="Left" Margin="24,41,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" Width="99"><Run Language="pt-br" Text="Nome:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="93,41,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <TextBlock HorizontalAlignment="Left" Margin="24,75,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Telefone:"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="93,73,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <TextBlock HorizontalAlignment="Left" Margin="24,106,0,0" Grid.Row="2" Text="Endereço:" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Margin="93,104,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" />
+        <TextBlock HorizontalAlignment="Left" Margin="24,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="2"><Run Language="pt-br" Text="Id"/></TextBlock>
+        <TextBox HorizontalAlignment="Left" Margin="93,18,0,0" Grid.RowSpan="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+
+        <!--<TextBlock x:Name="txtNome" Text="Nome" />-->
+
+    </Grid>
+</Page>
