@@ -12,4 +12,11 @@
     <Folder Include="Services\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="View\ToalhaPage - Cópia.xaml.cs">
+      <SubType>Code</SubType>
+      <DependentUpon>ToalhaPage.xaml.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
 </Project>

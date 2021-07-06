@@ -7,24 +7,6 @@
         mc:Ignorable="d"
         Title="Toalha" Height="450" Width="800">
     <Grid>
-        <Grid>
-            <Grid.RowDefinitions>
-                <RowDefinition />
-                <!--menu geral-->
-                <RowDefinition />
-                <!--Filtros tela-->
-                <RowDefinition />
-                <!--DataGrid-->
-            </Grid.RowDefinitions>
-            <Grid Grid.Row="1"  x:Name="filtrosToalhas">
-
-            </Grid>
-            <DataGrid Grid.Row="2" Name="dtgToalhas">
-               
-
-            </DataGrid>
-        </Grid>
-        <Label Content="TOALHAS" HorizontalAlignment="Left" Margin="350,200,0,0" VerticalAlignment="Top"/>
-
+        
     </Grid>
 </Window>

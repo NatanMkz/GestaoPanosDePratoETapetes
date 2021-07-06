@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,18 +10,23 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
 namespace GestaoPanosDePratoETapetes.View
 {
     /// <summary>
-    /// Lógica interna para Toalha.xaml
+    /// Interação lógica para CadCostureira.xam
     /// </summary>
-    public partial class Toalha : Window
+    public partial class CadToalha : Page
     {
-        public Toalha()
+        public CadToalha()
         {
             InitializeComponent();
         }
+
+
+
+
     }
 }

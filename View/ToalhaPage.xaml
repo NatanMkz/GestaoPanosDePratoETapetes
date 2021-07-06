@@ -17,13 +17,21 @@
                 <RowDefinition />
                 <!--DataGrid-->
             </Grid.RowDefinitions>
+            <Grid Grid.Row="0"  x:Name="filtrosToalhas">
+            <Button  >Cadastrar</Button> 
+            </Grid>
             <Grid Grid.Row="1"  x:Name="filtrosToalhas">
 
             </Grid>
             <DataGrid Grid.Row="2" Name="dtgToalhas" AutoGenerateColumns="False">
                 <DataGrid.Columns>
+                    <DataGridTextColumn Header="Id" IsReadOnly="True"  Width="Auto" Binding="{Binding Id}"  />
                     <DataGridTextColumn Header="Nome" IsReadOnly="True"  Width="Auto" Binding="{Binding Nome}"  />
-                    <!--Fazer um  DataGridTextColumn para cada propriedade do PanoPrato-->
+                    <DataGridTextColumn Header="Remessa" IsReadOnly="True"  Width="Auto" Binding="{Binding Remessa}"  />
+                    <DataGridTextColumn Header="Quantidade" IsReadOnly="True"  Width="Auto" Binding="{Binding Quantidade}"  />
+                    <DataGridTextColumn Header="Data de Entrega" IsReadOnly="True"  Width="Auto" Binding="{Binding DataEntrega}"  />
+                    <DataGridTextColumn Header="Data de Coleta" IsReadOnly="True"  Width="Auto" Binding="{Binding DataColeta}"  />
+                    <DataGridTextColumn Header="Costureira" IsReadOnly="True"  Width="Auto" Binding="{Binding Costureira.Nome}"  />
                 </DataGrid.Columns>
 
             </DataGrid>
