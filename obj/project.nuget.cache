@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
   "dgSpecHash": "6KuYUfeaSxcjPU/h6fNifawNppUzMJxxozftSx5ppK1wL4k5ZAtYllYLuMuTNNJk2YAvDjl6HpPvrAziTjVbVQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\vlnote26\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
-=======
-  "dgSpecHash": "O2OGu9n/qqgf6MY3DD3IpP6UDFJETVeepXclE1YOVNfX1EPooBMIicqowrkjWLbU74bewXD3s0J4MKYh5Csp+w==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
->>>>>>> 3a7c1b3c6e12d149c756bda298cefadfbd4dc82c
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema ao ler o arquivo de cache C:\\Users\\vlnote26\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes\\obj\\project.nuget.cache: Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

@@ -76,3 +76,15 @@ C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windo
 C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\TapetePage.baml
 C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\Toalha.g.cs
 C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\Toalha.baml
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadCostureira.g.cs
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadToalha.g.cs
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\Principal.g.cs
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\TapetePage.g.cs
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\Toalha.g.cs
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\ToalhaPage.g.cs
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadCostureira.baml
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadToalha.baml
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\Principal.baml
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\TapetePage.baml
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\Toalha.baml
+C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\ToalhaPage.baml

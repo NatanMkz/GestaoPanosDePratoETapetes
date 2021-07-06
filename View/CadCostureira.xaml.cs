@@ -1,4 +1,5 @@
-﻿using System;
+﻿using GestaoPanosDePratoETapetes.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,12 @@ namespace GestaoPanosDePratoETapetes.View
         public CadCostureira()
         {
             InitializeComponent();
+        }
+
+        private void Salvar_Click(object sender, RoutedEventArgs e)
+        {
+            List<Costureira> info = new List<Costureira>();            
+            info.Add(new Costureira( int.Parse( txtId.Text), txtNome.Text, txtTelefone.Text, txtEndereco.Text, null, int.Parse(txtTotal.Text)));
         }
 
         

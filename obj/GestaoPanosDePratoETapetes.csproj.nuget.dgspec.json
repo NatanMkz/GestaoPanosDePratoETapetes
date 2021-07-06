@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "C:\\Users\\vlnote26\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj": {}
   },
   "projects": {
@@ -19,27 +18,6 @@
         ],
         "configFilePaths": [
           "C:\\Users\\vlnote26\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-    "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj": {}
-  },
-  "projects": {
-    "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
-        "projectName": "GestaoPanosDePratoETapetes",
-        "projectPath": "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
-        "packagesPath": "C:\\Users\\vlnote35\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vlnote35\\source\\repos\\GestaoPanosDePratoETapetes\\obj\\",
-        "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
-        "configFilePaths": [
-          "C:\\Users\\vlnote35\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 3a7c1b3c6e12d149c756bda298cefadfbd4dc82c
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -83,11 +61,7 @@
               "privateAssets": "none"
             }
           },
-<<<<<<< HEAD
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.300\\RuntimeIdentifierGraph.json"
-=======
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
->>>>>>> 3a7c1b3c6e12d149c756bda298cefadfbd4dc82c
         }
       }
     }
