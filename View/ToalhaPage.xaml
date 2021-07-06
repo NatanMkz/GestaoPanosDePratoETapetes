@@ -20,7 +20,7 @@
             <Grid Grid.Row="0"  x:Name="filtrosToalhas">
             <Button  >Cadastrar</Button> 
             </Grid>
-            <Grid Grid.Row="1"  x:Name="filtrosToalhas">
+            <Grid Grid.Row="1"  x:Name="filtrosToalhas2">
 
             </Grid>
             <DataGrid Grid.Row="2" Name="dtgToalhas" AutoGenerateColumns="False">

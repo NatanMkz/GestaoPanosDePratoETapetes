@@ -19,8 +19,8 @@
                 <RowDefinition Height="40" />
 
             </Grid.RowDefinitions>
-            <TextBlock Text="Nome">
-           
+            <TextBlock Text="Nome" />
+
         </Grid>
 
     </Grid>
