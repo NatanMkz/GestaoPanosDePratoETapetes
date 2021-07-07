@@ -28,5 +28,11 @@ namespace GestaoPanosDePratoETapetes.View
             Principal voltar = new Principal();
             this.Content = voltar;
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            CadPano pano = new CadPano();
+            NavigationService.Navigate(pano);
+        }
     }
 }

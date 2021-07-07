@@ -9,12 +9,21 @@ GestaoPanosDePratoETapetes
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
+<<<<<<< HEAD
 C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\App.xaml
 7-1694018050
 
 191688559565
 193-1891726104
 MainWindow.xaml;View\CadCostureira.xaml;View\CadToalha.xaml;View\Principal.xaml;View\TapetePage.xaml;View\Toalha.xaml;View\ToalhaPage.xaml;
+=======
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\App.xaml
+10651192770
+
+222146233733
+193-1891726104
+MainWindow.xaml;View\CadCostureira.xaml;View\CadPano.xaml;View\CadToalha.xaml;View\cvCostureira.xaml;View\cvPano.xaml;View\Principal.xaml;View\TapetePage.xaml;View\Toalha.xaml;View\ToalhaPage.xaml;
+>>>>>>> 733f2d8fe7ddb14e1b77a55a4d21057f7061c3a7
 
 False
 

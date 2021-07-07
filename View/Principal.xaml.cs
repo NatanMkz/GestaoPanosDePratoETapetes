@@ -51,8 +51,20 @@ namespace GestaoPanosDePratoETapetes.View
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            //CadCostureira pessoa = new CadCostureira();
-            //NavigationService.Navigate(pessoa);
+            CadPano cadpano = new CadPano();
+            NavigationService.Navigate(cadpano);
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            cvCostureira costureira = new cvCostureira();
+            NavigationService.Navigate(costureira);
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            cvPano pano = new cvPano();
+            NavigationService.Navigate(pano);
         }
     }
 }

@@ -88,3 +88,16 @@ C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETap
 C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\TapetePage.baml
 C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\Toalha.baml
 C:\Users\vlnote26\source\repos\GestaoPanosDePratoETapetes\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\ToalhaPage.baml
+<<<<<<< HEAD
+=======
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadCostureira.g.cs
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadToalha.g.cs
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\cvCostureira.g.cs
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadCostureira.baml
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadToalha.baml
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\cvCostureira.baml
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\cvPano.g.cs
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\cvPano.baml
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadPano.g.cs
+C:\Users\NatanMkz\source\repos\GestaoPanosDePratoETapetes\obj\Debug\net5.0-windows\View\CadPano.baml
+>>>>>>> 733f2d8fe7ddb14e1b77a55a4d21057f7061c3a7
