@@ -27,10 +27,10 @@
             <DataGrid Grid.Row="2" Name="dtgCostureira" AutoGenerateColumns="False">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Id" IsReadOnly="True"  Width="Auto" Binding="{Binding id}"  />
-                    <DataGridTextColumn Header="Nome" IsReadOnly="True"  Width="Auto" Binding="{Binding nome}"  />
-                    <DataGridTextColumn Header="Telefone" IsReadOnly="True"  Width="Auto" Binding="{Binding telefone}"  />
-                    <DataGridTextColumn Header="Endereço" IsReadOnly="True"  Width="Auto" Binding="{Binding endereco}"  />
-                    <DataGridTextColumn Header="Tipo de Pessoa" IsReadOnly="True"  Width="Auto" Binding="{Binding TipoPessoa.tipo}"  />
+                    <DataGridTextColumn Header="Nome" IsReadOnly="True"  Width="Auto" Binding="{Binding Nome}"  />
+                    <DataGridTextColumn Header="Telefone" IsReadOnly="True"  Width="Auto" Binding="{Binding Telefone}"  />
+                    <DataGridTextColumn Header="Endereço" IsReadOnly="True"  Width="Auto" Binding="{Binding Endereco}"  />
+                    <DataGridTextColumn Header="Tipo de Pessoa" IsReadOnly="True"  Width="Auto" Binding="{Binding TipoPessoa.Nome}"  />
                     <!--<DataGridTextColumn Header="Total Toalhas" IsReadOnly="True"  Width="Auto" Binding="{Binding totalToalhas}"  />-->
                 </DataGrid.Columns>
 

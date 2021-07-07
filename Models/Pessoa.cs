@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
@@ -9,7 +10,6 @@ namespace GestaoPanosDePratoETapetes.Models
 {
     public class Pessoa
     {
-
         private int _id;
         private string _nome;
         private string _telefone;
@@ -29,7 +29,7 @@ namespace GestaoPanosDePratoETapetes.Models
             _endereco = endereco;
             _tipo = tipo;
         }
-
+        [Key]
         public int Id { get => _id; }
         public string Nome { get => _nome; }
         public string Telefone { get => _telefone; }
