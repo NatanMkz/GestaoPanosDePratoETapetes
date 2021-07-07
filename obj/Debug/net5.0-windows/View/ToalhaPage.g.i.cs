@@ -77,7 +77,7 @@ namespace GestaoPanosDePratoETapetes.View {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/GestaoPanosDePratoETapetes;component/view/toalhapage.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/GestaoPanosDePratoETapetes;V1.0.0.0;component/view/toalhapage.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\View\ToalhaPage.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

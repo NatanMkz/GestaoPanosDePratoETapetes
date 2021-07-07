@@ -1,5 +1,8 @@
 ﻿using GestaoPanosDePratoETapetes.Models;
+<<<<<<< HEAD
+=======
 using GestaoPanosDePratoETapetes.Repository;
+>>>>>>> 733f2d8fe7ddb14e1b77a55a4d21057f7061c3a7
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -29,6 +32,10 @@ namespace GestaoPanosDePratoETapetes.View
 
         private void Salvar_Click(object sender, RoutedEventArgs e)
         {
+<<<<<<< HEAD
+            List<Costureira> info = new List<Costureira>();            
+            info.Add(new Costureira( int.Parse( txtId.Text), txtNome.Text, txtTelefone.Text, txtEndereco.Text, null, int.Parse(txtTotal.Text)));
+=======
             using (var dataContext = new DataBase())
             {
                 dataContext.Costureira.Add(new Costureira(int.Parse(txtId.Text), txtNome.Text, txtTelefone.Text, txtEndereco.Text, new TipoPessoa(int.Parse(txtId.Text), txtNome.Text), int.Parse(txtTotal.Text)));
@@ -36,6 +43,7 @@ namespace GestaoPanosDePratoETapetes.View
                 var a = dataContext.Costureira.ToList();
             }
               
+>>>>>>> 733f2d8fe7ddb14e1b77a55a4d21057f7061c3a7
         }
 
         
