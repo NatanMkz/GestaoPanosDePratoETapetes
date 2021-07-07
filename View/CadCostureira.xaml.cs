@@ -30,8 +30,11 @@ namespace GestaoPanosDePratoETapetes.View
         {
             List<Costureira> info = new List<Costureira>();
             info.Add(new Costureira( int.Parse( txtId.Text), txtNome.Text, txtTelefone.Text, txtEndereco.Text, null, int.Parse(txtTotal.Text)));
-        }
 
-        
+            MessageBoxResult result = MessageBox.Show("Informações Salvas!");
+        }
+       
+
+
     }
 }

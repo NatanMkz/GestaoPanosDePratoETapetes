@@ -15,17 +15,17 @@
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <TextBlock HorizontalAlignment="Left" Margin="24,20,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="2"><Run Language="pt-br" Text="Id"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Margin="95,18,0,0" Grid.RowSpan="3" Name="txtId" VerticalAlignment="Top" Width="49"/>
+        <TextBox HorizontalAlignment="Left" Margin="95,18,0,0" Grid.RowSpan="3" Name="txtId" VerticalAlignment="Top" Width="49" Style="{Binding Path= id}"/>
         <TextBlock HorizontalAlignment="Left" Margin="20,43,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Height="15" Width="98"><Run Language="pt-br" Text="Nome:"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Margin="95,41,0,0" Grid.Row="2" Name="txtNome" VerticalAlignment="Top" Width="158" Style="{Binding Path= Nome}" />
+        <TextBox HorizontalAlignment="Left" Margin="95,41,0,0" Grid.Row="2" Name="txtNome" VerticalAlignment="Top" Width="158" Style="{Binding Path= nome}" />
         <TextBlock HorizontalAlignment="Left" Margin="20,69,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top"><Run Language="pt-br" Text="Telefone:"/></TextBlock>
-        <TextBox HorizontalAlignment="Left" Margin="95,64,0,0" Grid.Row="2" Name="txtTelefone" VerticalAlignment="Top" Width="158"/>
+        <TextBox HorizontalAlignment="Left" Margin="95,64,0,0" Grid.Row="2" Name="txtTelefone" VerticalAlignment="Top" Width="158" Style="{Binding Path= telefone}"/>
         <TextBlock HorizontalAlignment="Left" Margin="20,90,0,0" Grid.Row="2" Text="Endereço:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="95,87,0,0" Grid.Row="2" Name="txtEndereco" VerticalAlignment="Top" Width="158" />
+        <TextBox HorizontalAlignment="Left" Margin="95,87,0,0" Grid.Row="2" Name="txtEndereco" VerticalAlignment="Top" Width="158" Style="{Binding Path= endereco}"/>
         <Button Content="Salvar" HorizontalAlignment="Left" Margin="24,188,0,0" Grid.Row="2" VerticalAlignment="Top" Height="32" Width="178" Click="Salvar_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="24,156,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="189"><Run Text="Clique"/><Run Language="pt-br" Text=" em &quot;Salvar&quot;"/><Run Text=" para Salvar as informações"/></TextBlock>
         <TextBlock HorizontalAlignment="Left" Margin="20,110,0,0" Grid.Row="2" Text="Total Toalhas:" TextWrapping="Wrap" VerticalAlignment="Top"/>
-        <TextBox HorizontalAlignment="Left" Margin="95,110,0,0" Grid.Row="2" Name="txtTotal" VerticalAlignment="Top" Width="97"/>
+        <TextBox HorizontalAlignment="Left" Margin="95,110,0,0" Grid.Row="2" Name="txtTotal" VerticalAlignment="Top" Width="97" Style="{Binding Path= TotalToalhas}"/>
         <TextBlock HorizontalAlignment="Left" Margin="351,18,0,0" Grid.Row="2" Text="Cadastro de Costureira" FontWeight="Bold" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Top" Height="25" Width="200"/>
         <!--<TextBlock x:Name="txtNome" Text="Nome" />-->
 
