@@ -13,7 +13,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using GestaoPanosDePratoETapetes.Models;
-using GestaoPanosDePratoETapetes.Repository;
 
 namespace GestaoPanosDePratoETapetes.View
 {
@@ -25,17 +24,15 @@ namespace GestaoPanosDePratoETapetes.View
         public ToalhaPage()
         {
             InitializeComponent();
-
-
             var a = new List<PanoPrato>();
-            //a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Vilmar","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
-            //a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Natan","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
-            //a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Vilmar","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
-            //a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Natan","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
-            //a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Vilmar","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
-            //a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Natan","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
-            //a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Vilmar","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
-            //a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Natan","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Vilmar","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Natan","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Vilmar","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Natan","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Vilmar","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Natan","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Vilmar","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 2, new Costureira(1,"Natan","3350-3020", "Brusque, algum bairro", new TipoPessoa(1,"Costureiro"),0)));
 
             dtgToalhas.ItemsSource = a;
         }

@@ -10,6 +10,11 @@ namespace GestaoPanosDePratoETapetes.Models
     {
         private double _precoVenda;
 
+        public Malha()
+        {
+
+        }
+
         public Malha(int id, string nome, int remessa, int quantidade, DateTime dataEntrega, DateTime dataColeta, double precoVenda) : base(id, nome, remessa, quantidade, dataEntrega, dataColeta)
         {
             _precoVenda = precoVenda;

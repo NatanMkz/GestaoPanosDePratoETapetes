@@ -10,6 +10,11 @@ namespace GestaoPanosDePratoETapetes.Models
     {
         private int _deficeToalhas;
         private Costureira _costureira;
+        
+        public PanoPrato()
+        {
+
+        }
 
         public PanoPrato(int id, string nome, int remessa, int quantidade, DateTime dataEntrega, DateTime dataColeta, int deficeToalhas, Costureira costureira) : base(id, nome, remessa, quantidade, dataEntrega, dataColeta)
         {

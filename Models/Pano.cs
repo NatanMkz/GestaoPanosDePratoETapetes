@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,7 +30,7 @@ namespace GestaoPanosDePratoETapetes.Models
             this._dataEntrega = dataEntrega;
             this._dataColeta = dataColeta;
         }
-
+        [Key]
         public int Id { get => _id; set => _id = value; }
         public string Nome { get => _nome; set => _nome = value; }
         public int Remessa { get => _remessa; set => _remessa = value; }

@@ -6,9 +6,14 @@ using System.Threading.Tasks;
 
 namespace GestaoPanosDePratoETapetes.Models
 {
-    public class ProdutorTapete
+    public class ProdutorTapete : Pessoa
     {
         private int _credito;
+
+        public ProdutorTapete()
+        {
+
+        }
 
         public ProdutorTapete(int credito)
         {
