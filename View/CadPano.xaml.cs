@@ -1,5 +1,4 @@
-﻿using GestaoPanosDePratoETapetes.Models;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -17,21 +16,18 @@ using System.Windows.Shapes;
 namespace GestaoPanosDePratoETapetes.View
 {
     /// <summary>
-    /// Interação lógica para CadCostureira.xam
+    /// Interação lógica para CadPano.xam
     /// </summary>
-    public partial class CadCostureira : Page
+    public partial class CadPano : Page
     {
-        public CadCostureira()
+        public CadPano()
         {
             InitializeComponent();
         }
 
         private void Salvar_Click(object sender, RoutedEventArgs e)
         {
-            List<Costureira> info = new List<Costureira>();
-            info.Add(new Costureira( int.Parse( txtId.Text), txtNome.Text, txtTelefone.Text, txtEndereco.Text, null, int.Parse(txtTotal.Text)));
-        }
 
-        
+        }
     }
 }

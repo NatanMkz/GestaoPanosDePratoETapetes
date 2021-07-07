@@ -10,6 +10,15 @@
     <Compile Update="View\CadCostureira.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="View\CadPano.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\cvCostureira.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="View\cvPano.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="View\Principal.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -28,6 +37,15 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\CadCostureira.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\CadPano.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\cvCostureira.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="View\cvPano.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="View\Principal.xaml">

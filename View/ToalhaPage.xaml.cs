@@ -36,5 +36,12 @@ namespace GestaoPanosDePratoETapetes.View
 
             dtgToalhas.ItemsSource = a;
         }
+        
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            CadPano pano = new CadPano();
+            NavigationService.Navigate(pano);
+        }
     }
 }

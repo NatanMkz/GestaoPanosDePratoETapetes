@@ -17,21 +17,26 @@ using System.Windows.Shapes;
 namespace GestaoPanosDePratoETapetes.View
 {
     /// <summary>
-    /// Interação lógica para CadCostureira.xam
+    /// Interação lógica para cvPano.xam
     /// </summary>
-    public partial class CadCostureira : Page
+    public partial class cvPano : Page
     {
-        public CadCostureira()
+        public cvPano()
         {
             InitializeComponent();
         }
 
-        private void Salvar_Click(object sender, RoutedEventArgs e)
+        public void ListarPanos()
         {
-            List<Costureira> info = new List<Costureira>();
-            info.Add(new Costureira( int.Parse( txtId.Text), txtNome.Text, txtTelefone.Text, txtEndereco.Text, null, int.Parse(txtTotal.Text)));
+            var a = new List<PanoPrato>();
+            a.Add(new PanoPrato(1, "Teste", 1, 10, DateTime.Now, DateTime.Now, 1, null));
         }
 
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            CadPano pano = new CadPano();
+            NavigationService.Navigate(pano);
+        }
         
     }
 }

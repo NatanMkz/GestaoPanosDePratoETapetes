@@ -9,19 +9,22 @@
     <Grid>
         <Grid>
             <Grid.RowDefinitions>
-                  <RowDefinition Height="40"/>
+                <RowDefinition Height="40"/>
                 <!--menu geral-->
                 <RowDefinition  Height="60"/>
                 <!--Filtros tela-->
                 <RowDefinition />
                 <!--DataGrid-->
             </Grid.RowDefinitions>
-
+            <Grid>
+                <Button Click="Button_Click" >Cadastrar</Button>
+            </Grid>
             <Grid Grid.Row="1"  x:Name="filtrosToalhas">
 
+                <TextBlock HorizontalAlignment="Center" Margin="0,18,0,0" Text="Pagina de Tapetes" FontWeight="Bold" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Top" Height="32" Width="156"/>
             </Grid>
             <DataGrid Grid.Row="2" Name="dtgTapetes" AutoGenerateColumns="False">
-            <DataGrid.Columns>
+                <DataGrid.Columns>
                     <DataGridTextColumn Header="Nome" IsReadOnly="True"  Width="Auto" Binding="{Binding Id}"  />
                     <DataGridTextColumn Header="Quantidade Entrada" IsReadOnly="True"  Width="Auto" Binding="{Binding Id}"  />
                     <DataGridTextColumn Header="Total" IsReadOnly="True"  Width="Auto" Binding="{Binding Id}"  />
