@@ -25,6 +25,12 @@ namespace GestaoPanosDePratoETapetes.Repository
                 optionbuilder.UseSqlite(@"Data Source=GestaoDePessoasDataBase.sqlite");
             }
         public DbSet<Pessoa> Pessoa { get; set; }
+        public DbSet<Malha> Malha { get; set; }
+        public DbSet<Pano> Pano { get; set; }
+        public DbSet<PanoPrato> PanoPrato { get; set; }
+        public DbSet<ProdutorTapete> ProdutorTapete { get; set; }
+        public DbSet<Tapete> Tapete { get; set; }
+        public DbSet<TipoPano> TipoPano { get; set; }
         public DbSet<TipoPessoa> TipoPessoa { get; set; }
         public DbSet<Costureira> Costureira { get; set; }
 

@@ -29,8 +29,13 @@ namespace GestaoPanosDePratoETapetes.View
             {
                 //dataContext.Costureira.Add(new Costureira(int.Parse(txtId.Text), txtNome.Text, txtTelefone.Text, txtEndereco.Text, null, int.Parse(txtTotal.Text)));
                 //dataContext.SaveChanges();
-                var a = dataContext.Costureira.ToList();
-                dtgCostureira.ItemsSource = a;
+                var costureiras = dataContext.Costureira.ToList();
+                var tiposPessoas = dataContext.TipoPessoa.ToList();
+                foreach (var constureira in costureiras)
+                {
+                    constureira.Tipo = tiposPessoas.Where(x => x.Id == constureira.Id).FirstOrDefault();
+                }
+                dtgCostureira.ItemsSource = costureiras;
             }
         }
 
