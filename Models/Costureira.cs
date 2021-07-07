@@ -10,12 +10,10 @@ namespace GestaoPanosDePratoETapetes.Models
     public class Costureira : Pessoa
     {
        
-        private int _id;
         private int _totalToalhas;
 
         public Costureira(int id, string nome, string telefone, string endereco, TipoPessoa tipo, int totalToalhas) : base(id, nome, telefone, endereco, tipo)
         {
-            _id = id;
             _totalToalhas = totalToalhas;
         }
 
@@ -24,8 +22,6 @@ namespace GestaoPanosDePratoETapetes.Models
         }
 
         public int TotalToalhas { get => _totalToalhas; set => _totalToalhas = value; }
-        [Key]
-        public int CostureiraId { get => _id; set => _id = value; }
 
         public int RemoverToalhas(int numero)
         {

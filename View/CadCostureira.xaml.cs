@@ -31,7 +31,7 @@ namespace GestaoPanosDePratoETapetes.View
         {
             using (var dataContext = new DataBase())
             {
-                dataContext.Costureira.Add(new Costureira(int.Parse(txtId.Text), txtNome.Text, txtTelefone.Text, txtEndereco.Text, null, int.Parse(txtTotal.Text)));
+                dataContext.Costureira.Add(new Costureira(int.Parse(txtId.Text), txtNome.Text, txtTelefone.Text, txtEndereco.Text, new TipoPessoa(int.Parse(txtId.Text), txtNome.Text), int.Parse(txtTotal.Text)));
                 dataContext.SaveChanges();
                 var a = dataContext.Costureira.ToList();
             }

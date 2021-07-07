@@ -30,16 +30,11 @@ namespace GestaoPanosDePratoETapetes.Models
             _tipo = tipo;
         }
         [Key]
-        public int Id { get => _id; }
-        public string Nome { get => _nome; }
-        public string Telefone { get => _telefone; }
-        public string Endereco { get => _endereco; }
-       
-        public TipoPessoa Tipo
-        {
-            get { return _tipo; }
-        }
-
+        public int Id { get => _id; set => _id = value; }
+        public string Nome { get => _nome; set => _nome = value; }
+        public string Telefone { get => _telefone; set => _telefone = value; }
+        public string Endereco { get => _endereco; set => _endereco = value; }
+        public TipoPessoa Tipo { get => _tipo; set => _tipo = value; }
     }
 
 }

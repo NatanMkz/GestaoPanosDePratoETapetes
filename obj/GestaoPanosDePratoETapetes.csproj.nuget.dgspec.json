@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\NatanMkz\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj": {}
+    "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosPratoETapetes\\GestaoPanosDePratoETapetes.csproj": {}
   },
   "projects": {
-    "C:\\Users\\NatanMkz\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj": {
+    "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosPratoETapetes\\GestaoPanosDePratoETapetes.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\NatanMkz\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
+        "projectUniqueName": "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosPratoETapetes\\GestaoPanosDePratoETapetes.csproj",
         "projectName": "GestaoPanosDePratoETapetes",
-        "projectPath": "C:\\Users\\NatanMkz\\source\\repos\\GestaoPanosDePratoETapetes\\GestaoPanosDePratoETapetes.csproj",
-        "packagesPath": "C:\\Users\\NatanMkz\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\NatanMkz\\source\\repos\\GestaoPanosDePratoETapetes\\obj\\",
+        "projectPath": "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosPratoETapetes\\GestaoPanosDePratoETapetes.csproj",
+        "packagesPath": "C:\\Users\\vlnote35\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\vlnote35\\Source\\Repos\\GestaoPanosPratoETapetes\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\NatanMkz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vlnote35\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
@@ -28,8 +29,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://www.myget.org/F/discord-net/api/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net5.0-windows7.0": {
@@ -46,6 +46,16 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[5.0.7, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -64,7 +74,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
